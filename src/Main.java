@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         int p = 1117;
         int q = 1471;
-        long g = 652534095028;
+        long g = 652534095028L;
 
         PaillierAlgorithm PA = new PaillierAlgorithm(p, q, g);
         PA.createKey();
